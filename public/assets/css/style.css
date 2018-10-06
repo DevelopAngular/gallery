@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Colibri;
+	src: url('../font/colibri.ttf');
+	 
+}
+
+body {
+	background: url('../images/fon4.jpg')no-repeat;
+	background-size: cover;
+}
+
+
+.albums{
+	border: 1px solid;
+	border-radius: 15px;;
+	margin-top: 10px;
+	height: 100px;
+}
+
+.container{
+	color: navajowhite;
+}
+.sel {
+	color: black;
+}
+
+.profile{
+	float: right;
+	list-style: none;
+	margin: 20px;
+	font-size: 30px;
+}
+
+.img-avatar{
+	margin-left: 20%;
+	border-radius: 50%;
+	width: 30%;
+}
+
+
+.droplink{
+	margin-left: 20%;
+    color: #bcd42a;
+	border-radius: 30px;
+	position: absolute;
+	padding: 20px;
+	background-color: #686868;
+}
+.dropmenu {
+    list-style: none;
+	color: #bcd42a;
+ }
+header{
+	width: 100%;
+}
+header a{
+	text-decoration: none;
+	color: #bcd42a;
+}
+header a:hover{
+	color: #f8f8f8;
+	text-decoration: none;
+}
+.menu{
+}
+.user-avatar{
+	width: 60%;
+}
+.user{
+	border: 2px solid white;
+	width: 50%;
+}
